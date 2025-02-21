@@ -7,7 +7,7 @@ url=("https://newsapi.org/v2/"
      "25-01-20&sortBy=publishedAt&apiKey=ad89b54e0ff342baa73a9add458c47a5&language=en")
 
 # Made a request
-request=requests.get(url)
+request=requests.get(url=url)
 
 # Get data in a dictionary
 content=request.json()
